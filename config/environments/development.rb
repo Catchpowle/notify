@@ -26,8 +26,8 @@ Notifiy::Application.configure do
   
   require 'pusher'
   Pusher.logger = Rails.logger
-  Pusher.app_id = 7733
-  Pusher.key = 'fa7c1e955481731b1662'
-  Pusher.secret = '9cdec7c15f2f8a9034c4'
+  Pusher.app_id = '118379'
+  Pusher.key    = '6a4e2a45f8d9137231f6'
+  Pusher.secret = '822d014a826887f2d410'
 end
 
