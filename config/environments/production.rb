@@ -46,4 +46,10 @@ Notifiy::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+
+  require 'pusher'
+  Pusher.logger = Rails.logger
+  Pusher.app_id = '118379'
+  Pusher.key    = '6a4e2a45f8d9137231f6'
+  Pusher.secret = '822d014a826887f2d410'
 end
